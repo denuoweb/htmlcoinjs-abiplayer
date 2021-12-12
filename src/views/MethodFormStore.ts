@@ -5,7 +5,7 @@ import {
   IContractSendRequestOptions,
   IContractCallRequestOptions,
   IDeployedContractInfo,
- } from "qtumjs"
+ } from "htmlcoinjs"
 
 export class MethodFormStore {
   @observable public inputs: Map<string, string> = new Map()
