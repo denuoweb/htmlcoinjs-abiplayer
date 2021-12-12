@@ -1,5 +1,5 @@
 import * as React from "react"
-import { IABIMethod, IDeployedContractInfo } from "qtumjs"
+import { IABIMethod, IDeployedContractInfo } from "htmlcoinjs"
 
 import { ShortenHash } from "./ShortenHash"
 
