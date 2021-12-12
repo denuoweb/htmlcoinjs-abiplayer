@@ -1,1 +1,1 @@
-declare const QTUM_RPC: string
+declare const HTMLCOIN_RPC: string
