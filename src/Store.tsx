@@ -12,8 +12,8 @@ import {
   IRPCGetTransactionResult,
 
   IRPCSendToContractResult,
-  QtumRPC,
-} from "qtumjs"
+  HtmlcoinRPC,
+} from "htmlcoinjs"
 
 import { IContractsInventory } from "./types"
 
@@ -45,8 +45,8 @@ async function readContractsInventory(file: File): Promise<IContractsInventory> 
 }
 
 // FIXME make this user configurable
-const rpc = new QtumRPC("http://localhost:9888")
-// const rpc = new QtumRPC("http://localhost:13889")
+const rpc = new HtmlcoinRPC("http://localhost:9888")
+// const rpc = new HtmlcoinRPC("http://localhost:13889")
 
 export interface ICallLog {
   type: "call"
