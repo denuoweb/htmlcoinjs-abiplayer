@@ -1,5 +1,5 @@
 import { inject, observer } from "mobx-react"
-import { IABIMethod, IDeployedContractInfo } from "qtumjs"
+import { IABIMethod, IDeployedContractInfo } from "htmlcoinjs"
 import * as React from "react"
 
 import { Store } from "../Store"
