@@ -7,7 +7,7 @@ import {
   IRPCGetTransactionReceiptResult,
   IRPCGetTransactionResult,
   IContractSendTxReceipt,
-} from "qtumjs"
+} from "htmlcoinjs"
 
 import * as copy from "copy-to-clipboard"
 
