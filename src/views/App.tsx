@@ -1,4 +1,4 @@
-import { Contract, IContractInfo, QtumRPC } from "qtumjs"
+import { Contract, IContractInfo, HtmlcoinRPC } from "htmlcoinjs"
 import * as React from "react"
 
 const css = require("./App.css")
