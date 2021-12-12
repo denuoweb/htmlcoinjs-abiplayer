@@ -1,6 +1,6 @@
 import { autorun, toJS } from "mobx"
 import { inject, observer } from "mobx-react"
-import { IABIMethod, IDeployedContractInfo, IContractSendRequestOptions } from "qtumjs"
+import { IABIMethod, IDeployedContractInfo, IContractSendRequestOptions } from "htmlcoinjs"
 import * as React from "react"
 
 import { Store } from "../Store"
