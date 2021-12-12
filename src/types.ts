@@ -1,4 +1,4 @@
-import { IDeployedContractInfo } from "qtumjs"
+import { IDeployedContractInfo } from "htmlcoinjs"
 
 export interface IContractsInventory {
   contracts: { [key: string]: IDeployedContractInfo }
